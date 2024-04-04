@@ -4,7 +4,7 @@ import youtube_dl
 import asyncio
 
 # Define the bot and its command prefix
-bot = commands.Bot(command_prefix='!')
+bot = commands.Bot(command_prefix='.')
 
 # Suppress noise about console usage from errors
 youtube_dl.utils.bug_reports_message = lambda: ''
